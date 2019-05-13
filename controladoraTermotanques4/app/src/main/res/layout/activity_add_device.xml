@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDevice">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <AbsoluteLayout
+            android:layout_width="wrap_content"
+            android:layout_height="633dp"
+            android:background="@drawable/degrade">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="21dp"
+                android:layout_y="598dp"
+                android:text="El Dispositivo tendra su nombre de fabrica, como vemos en este caso 'TermoEnergy'. La contraseña por default sera '12345678' "
+                android:textColor="#30e400" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_x="21dp"
+                android:layout_y="94dp"
+                android:text="1- Energizaremos el dispositivo. El parpadeo rapido del led indica que esta buscando una red a la cual conectarse."
+                android:textColor="#30e400" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_x="19dp"
+                android:layout_y="165dp"
+                android:text="2- En segundo plano, abriremos el administrador de WiFi de nuestro telefono. Nos desconectaremos de nuestra red WiFi y nos conectaremos al Dispositivo."
+                android:textColor="#30e400" />
+
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="676dp"
+                android:layout_marginEnd="224dp"
+                android:layout_marginRight="224dp"
+                android:layout_x="50dp"
+                android:layout_y="14dp"
+                android:text="Agregar Dispositivo"
+                android:textColor="#30e400"
+                android:textSize="36sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="154dp"
+                android:layout_height="305dp"
+                android:layout_x="117dp"
+                android:layout_y="264dp"
+                app:srcCompat="@drawable/imagenderedeswifi"
+                tools:layout_editor_absoluteX="146dp"
+                tools:layout_editor_absoluteY="286dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="149dp"
+                android:layout_height="191dp"
+                android:layout_x="118dp"
+                android:layout_y="671dp"
+                app:srcCompat="@drawable/conectorwifiparaapp"
+                tools:layout_editor_absoluteX="133dp"
+                tools:layout_editor_absoluteY="666dp" />
+
+            <TextView
+                android:id="@+id/textoPrueba"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_x="19dp"
+                android:layout_y="870dp"
+                android:text="3- Una vez que nos logramos conectar a nuestro dispositivo, volvemos a la App Energytec y presionamos el boton 'Agregar dispositivo nuevo'"
+                android:textColor="#30e400" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="100dp"
+                android:layout_y="940dp"
+                android:text="Buscar Dispositivo"
+                tools:layout_editor_absoluteX="289dp"
+                tools:layout_editor_absoluteY="326dp" />
+
+            <TextView
+                android:id="@+id/texto01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_x="119dp"
+                android:layout_y="1000dp"
+                android:text="Tipo de equipo..."
+                android:textColor="#30e400" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="37dp"
+                android:layout_y="1065dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name"
+                tools:layout_editor_absoluteX="80dp"
+                tools:layout_editor_absoluteY="99dp" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="37dp"
+                android:layout_y="1125dp"
+                android:ems="10"
+                android:inputType="numberPassword"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="70dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="283dp"
+                android:layout_y="1062dp"
+                app:srcCompat="@android:drawable/checkbox_on_background"
+                tools:layout_editor_absoluteX="286dp"
+                tools:layout_editor_absoluteY="1059dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="283dp"
+                android:layout_y="1130dp"
+                app:srcCompat="@android:drawable/checkbox_on_background"
+                tools:layout_editor_absoluteX="280dp"
+                tools:layout_editor_absoluteY="1076dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="56dp"
+                android:layout_y="1200dp"
+                android:text="Recordar dispositivo"
+                tools:layout_editor_absoluteX="128dp"
+                tools:layout_editor_absoluteY="1077dp" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="50dp"
+                android:layout_y="1280dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Name"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="883dp" />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="50dp"
+                android:layout_y="1350dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="14dp"
+                tools:layout_editor_absoluteY="431dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="290dp"
+                android:layout_y="1278dp"
+                app:srcCompat="@android:drawable/checkbox_on_background"
+                tools:layout_editor_absoluteX="125dp"
+                tools:layout_editor_absoluteY="1084dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="290dp"
+                android:layout_y="1350dp"
+                app:srcCompat="@android:drawable/checkbox_on_background"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="494dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="110dp"
+                android:layout_y="1450dp"
+                android:text="Conectar Dispositivo"
+                tools:layout_editor_absoluteX="272dp"
+                tools:layout_editor_absoluteY="704dp" />
+
+
+        </AbsoluteLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
